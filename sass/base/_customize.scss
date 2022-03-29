@@ -1,0 +1,31 @@
+    // custom lại thư viện
+    .owl-carousel {
+        .owl-nav {
+            button {
+                &.owl-prev,
+                &.owl-next {
+                    width: 44px;
+                    height: 44px;
+                    line-height: 38px;
+                    border-radius: 50% !important;
+                    box-shadow: 0 2px 8px 2px $color-black-2;
+                    background-color: $color-white-0;
+                    position: absolute;
+                    top: 35%;
+                    &:hover {
+                        background-color: $color-white-0;
+                    }
+                    span {
+                        color: $color-blue-0;
+                        font-size: $fs-5;
+                    }
+                }
+                &.owl-prev {
+                    left: -30px;
+                }
+                &.owl-next {
+                    right: -30px;
+                }
+            }
+        }
+    }
